@@ -12,16 +12,18 @@ function Navbar() {
             <Link to="/login" className="hover:underline">
               Login
             </Link>
+            <Link to="/cadastro" className="hover:underline">
+              Cadastro Usuário
+            </Link>
             <Link to="/home" className="hover:underline">
               Home
             </Link>
-            <Link to="/produto" className="hover:underline">
+            <Link to="/produtos" className="hover:underline">
               Produtos
             </Link>
-            <Link to="/categoria" className="hover:underline">
+            <Link to="/categorias" className="hover:underline">
               Categorias
             </Link>
-            <Link to='/contato' className="hover:underline">Contato</Link>
             <div className="hover:underline">Sair</div>
           </div>
         </div>
